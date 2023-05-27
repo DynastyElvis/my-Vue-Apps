@@ -1,16 +1,16 @@
 <template>
-  <Header/>
+  <MyHeader/>
   <QuestionBox/>
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import MyHeader from './components/MyHeader.vue'
 import QuestionBox from './components/QuestionBox.vue'
 
 export default {
   name: 'App',
   components: {
-    Header,
+    MyHeader,
     QuestionBox
   }
 }
